@@ -23,6 +23,7 @@ public class SearchPageObjects {
     private By product_price_list = By.xpath("//span[@class='a-price-whole']");
 
     public SearchPageObjects(WebDriver driver) {
+
         this.driver = driver;
     }
 

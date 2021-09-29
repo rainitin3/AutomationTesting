@@ -50,6 +50,7 @@ public class Hooks {
             byte[] data = scrnShot.getScreenshotAs(OutputType.BYTES);
             scn.attach(data, "image/png", "Failed Step name : " + scn.getName());
 
+
         } else {
 
             scn.log("Test case is passed, no screen shot captured");
